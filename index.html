@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="style.css">
+    <title>Tailwind</title>
+</head>
+<body>
+<!-- Navbar -->
+    <div class="nav__main">
+        <div class="nav__container">
+            <div class="nav__logo">
+                <a href="#">Fintech</a>
+            </div>
+            <div class="nav__item">
+                <a href="#">Platform</a>
+                <a href="#">Company</a>
+                <a href="#">Indutries</a>
+                <a href="#">Resources</a>
+            </div>
+            <div class="nav__login">
+                <button class="bg-stone-50 hover:bg-stone-100 text-black font-bold py-2 px-5 border border-black 700 rounded-full">SIGN IN</button>
+                <button class="bg-gray-600 hover:bg-gray-700 text-black font-bold py-2 px-5 border border-gray 700 rounded-full">SIGN UP</button>
+            </div>
+        </div>
+    </div>
+<!-- Content -->
+    <div class="content__main">
+        <div class="content__container">
+            <h1 class="content__title">All banks are worried about fintech.id</h1>
+            <p class="content__description">We help you get paid any way you want, with the least amount of hassle. It's just one of the reasons we are the most trusted name.</p>
+            <div class="email__form border-2 border border-black rounded-full">
+                <input class="email__input text-gray 700 px-4 border rounded-full" type="email" placeholder="youremail@xxxmail.com">
+                <button class="submit__button bg-orange-500 hover:bg-orange-400 text-black py-2 px-4 border rounded-full">Get started</button>
+            </div>
+            <div class="card__container">
+                <div class="card__item hover:scale-125">
+                    <img class="card__logo" src="Assets/total-earning.svg" alt="">
+                    <div class="card__detail">
+                        <p class="info__detail">Total Earning</p>
+                        <p class="info__total">$22K</p>
+                        <p class="info__percent">+10.80%</p>
+                    </div>
+                </div>
+                <div class="card__item hover:scale-125">
+                    <img class="card__logo" src="Assets/withdraw.svg" alt="">
+                    <div class="card__detail">
+                        <p class="info__detail">Withdraw</p>
+                        <p class="info__total">$10K</p>
+                        <p class="info__percent">05.80</p>
+                    </div>
+                </div>
+                <div class="card__item hover:scale-125">
+                    <img class="card__logo" src="Assets/total-project.svg" alt="">
+                    <div class="card__detail">
+                        <p class="info__detail">Total Projects</p>
+                        <p class="info__total">15</p>
+                        <p class="info__percent">10.80%</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="content__image">
+            <img src="Assets/credit-card.png" alt="">
+        </div>
+    </div>
+<!-- Footer -->
+    <div class="benefit__container">
+        <div class="benefit__item">
+            <img class="benefit__logo" src="Assets/credit-card.svg" alt="">
+            <p>Improved collection performance</p>
+        </div>
+        <div class="benefit__item">
+            <img class="benefit__logo" src="Assets/wallet.svg" alt="">
+            <p>Convenient, local payment options</p>
+        </div>
+        <div class="benefit__item">
+            <img class="benefit__logo" src="Assets/currency.svg" alt="">
+            <p>The best price guarantee</p>
+        </div>
+    </div>
+</body>
+</html>
